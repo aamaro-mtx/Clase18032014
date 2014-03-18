@@ -12,12 +12,10 @@ namespace ToUpper
             int index = 0, contador = 0;
 
             //proceso
-            int valCarAct;
             char ctmp;
 
             //salida 
             StringBuilder sb = new StringBuilder();
-            string stringFinal = "";
 
             //10 Escribe “Dame una cadena”
             Console.WriteLine("Dame una cadena");
@@ -38,9 +36,10 @@ namespace ToUpper
                     ctmp--;
                     //43 hacer contador = contador + 1;
                     contador = contador + 1;
+                    //44 ir a Lreduce
                     goto Lreduce;
                 }
-                //43 hacer contador = 0
+                //45 hacer contador = 0
                 contador = 0;
                 //50	resultado = resultado + actual
                 sb.Append(ctmp);
