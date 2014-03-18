@@ -51,19 +51,6 @@ namespace ToUpper
                 //70	Ir a L30
                 goto L30;
             }
-            
-
-            //#region Conversion de numero a ASCII
-            ////71 index = 0
-            //index = 0;
-
-            //stringFinal = sb.ToString();
-            //char cDec;
-            //if (stringFinal[index] != ',')
-            //{
-
-            //}
-            //#endregion
 
             //80 Escribe “La cadena resultante es ” Escribe resultado
             Console.WriteLine(sb.ToString());
