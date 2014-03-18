@@ -14,6 +14,7 @@ namespace ToUpper
 
             //proceso
             int valCarAct;
+            char ctmp;
 
             //salida 
             StringBuilder sb = new StringBuilder();
@@ -29,7 +30,7 @@ namespace ToUpper
             if (index < input.Length)
             {
                 // 40 hacer ctmp= input[index]
-                char ctmp = input[index];
+                ctmp = input[index];
             Lreduce:
                 //41 Si contador < 32
                 if (contador < 32)
